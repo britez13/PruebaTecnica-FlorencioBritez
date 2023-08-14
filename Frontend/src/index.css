@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input:checked + label {
+    color: rgb(59, 136, 209);
+    box-shadow: 0px 0px 2px 2px rgb(59, 136, 209);
+}
+
+.selection.number {
+    border-radius:50%;
+}
+
+.selection[data-color="rojo"] {
+    background-color: red;
+
+}
+
+.selection[data-color="negro"] {
+    background-color: black;
+
+}
+
+.result[data-result="rojo"] {
+    color: red;
+}
+
+.result[data-result="negro"] {
+    color: black;
+}
