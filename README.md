@@ -2,7 +2,7 @@
 
 ## Asp.net
 1. Tener instalado Visual Studio para abrir el backend del proyecto, localizado en `PruebaTecnica-FlorencioBritez/Backend/Backend.sln`
-2. Cambiar el nombre del nombre del sql server dentro conectionStrings en el archivo `Web.config`
+2. Cambiar el nombre del server para conectar con la DB dentro conectionStrings en el archivo `Web.config`
 3. Correr proyecto con IIS Express
 
 ## Vue.js
